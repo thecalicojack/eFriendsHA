@@ -1,0 +1,11 @@
+{
+  "codeowners": ["michi"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "http://192.168.178.20:12080/michi/eFriendsHA",
+  "domain": "eFriendsHA",
+  "iot_class": "cloud_polling",
+  "name": "eFriends",
+  "requirements": [],
+  "version": "0.1.0"
+}
