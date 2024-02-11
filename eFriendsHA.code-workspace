@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../run/user/1000/gvfs/smb-share:server=192.168.178.20,share=docker/homeassistant/config/custom_components/eFriendsHA"
+		}
+	],
+	"settings": {}
+}
