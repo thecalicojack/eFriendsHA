@@ -11,6 +11,7 @@ fi
 ln -sf "${PWD}/custom_components" /tmp/config/custom_components
 
 ln -sf "${PWD}/tests/configuration.yaml" /tmp/config/configuration.yaml
+ln -sf "${PWD}/tests/secrets.yaml" /tmp/config/secrets.yaml
 
 
 # Start Home Assistant

@@ -9,4 +9,4 @@ debugpy:
 sensor:
   - platform: eFriendsHA
     ip: '192.168.178.41'
-    apikey: '598017c8-5752-4c2e-b48d-d94e2742d3a7'
+    apikey: !secret efriendsapi
