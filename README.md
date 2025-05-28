@@ -1,5 +1,6 @@
 # eFriends for Home Assistant
-Integrates measurements delivered by [eFriends](https://www.efriends.at) cube into Home Assistant.
+Integrates measurements delivered by [eFriends](https://www.efriends.at) cube into Home Assistant.  
+A descripton of the API can be found here [MeterDataAPI](https://support.efriends.at/hc/de/articles/26626854641181-Schnittstelle-Leistungsdaten) (in german)
 
 At the moment the integration only supports reading the current power balance.  
 If you want to see your energy consumption/generation you can use HA Integration helper.
