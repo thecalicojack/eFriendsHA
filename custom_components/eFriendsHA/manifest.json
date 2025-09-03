@@ -1,12 +1,12 @@
 {
-  "codeowners": ["@michi"],
+  "codeowners": ["@thecalicojack"],
   "config_flow": false,
   "dependencies": [],
-  "documentation": "http://192.168.178.20:12080/michi/eFriendsHA",
-  "issue_tracker": "http://192.168.178.20:12080/michi/eFriendsHA/issues",
+  "documentation": "https://github.com/thecalicojack/eFriendsHA",
+  "issue_tracker": "https://github.com/thecalicojack/eFriendsHA/issues",
   "domain": "eFriendsHA",
   "iot_class": "cloud_polling",
-  "name": "eFriends",
+  "name": "eFriendsHA",
   "requirements": [],
-  "version": "0.1.1,"
+  "version": "1.0.2"
 }
