@@ -1,11 +1,18 @@
 # eFriends for Home Assistant
-Integrates measurements delivered by [eFriends](https://www.efriends.at) cube into Home Assistant.  
+Integrates measurements delivered by [eFriends](https://www.efriends.at) cube into Home Assistant.
 A descripton of the API can be found here [MeterDataAPI](https://support.efriends.at/hc/de/articles/26626854641181-Schnittstelle-Leistungsdaten) (in german)
 
-At the moment the integration only supports reading the current power balance.  
-If you want to see your energy consumption/generation you can use HA Integration helper.
+The integration adds five sensors:
+* Power: current power value. Positiv if power is consumed and negativ if power is feed in.
+* PowerFromGrid: currently consumed power
+* PowerToGrid: currently feed in power
+* EnergyFromGrid: accumulated consumed energy
+* EnergyToGrid: acucumulated feed in energy
 
 ## Installation
+### HACS
+Add this repository as user-defined repository to HACS. Search for eFriends integration and install
+### Manual
 Copy the `custom_components/eFriendsHA` folder to the custom_components folder in your home-assistant config directory.
 
 ## Configuration
