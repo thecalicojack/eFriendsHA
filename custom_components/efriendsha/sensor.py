@@ -26,7 +26,7 @@ from homeassistant.helpers.event import (
 )
 from homeassistant.core import Event, EventStateChangedData
 
-from custom_components.eFriendsHA.const import (
+from custom_components.efriendsha.const import (
     DOMAIN,
     LOCAL_BASE_URL,
     NAME_POWER,
